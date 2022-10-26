@@ -7,6 +7,6 @@
 
 termux-setup-storage
 pkg update && pkg install wget termux-api
-wget -O install-nethunter-termux https://offs.ec/2MceZWr
+wget -O install-nethunter-termux https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project/raw/master/nethunter-rootless/install-nethunter-termux
 chmod +x install-nethunter-termux
 install-nethunter-termux
